@@ -5,7 +5,7 @@ const https = require("https");
 const app = express();
 
 app.get("/", function(req , res){
-    const url= "https://api.openweathermap.org/data/2.5/weather?lat=51.5085&lon=-0.1257&appid=71adb8c77866a0f873b0d5440ca3f692&units=metric0"
+    const url= "Api Key"
     https.get(url , function(response){
         console.log(response.statusCode);
 
